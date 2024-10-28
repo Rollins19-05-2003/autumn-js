@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     background-color: aliceblue;
-    height: 100vh;
+}
+
+h3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2rem;
 }
 
 #content{
@@ -90,4 +95,27 @@
 
 .hidden {
     display: none;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .btn, .prev, .next{
+        width: 30px;
+        height: 30px;
+        font-size: small;
+    }
+
+    .truncated::after{
+        width: 30px;
+        height: 30px;
+        font-size: small;
+    }
+
+    #container {
+        padding: 40px;
+    }
 }
