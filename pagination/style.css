@@ -103,6 +103,11 @@ h3{
         font-size: 1.5em;
     }
 
+    .card{
+        width: 200px;
+        height: 150px;
+    }
+
     .btn, .prev, .next{
         width: 30px;
         height: 30px;
