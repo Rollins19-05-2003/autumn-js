@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizzy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="quiz-app">
+        <div class="quiz-header">
+          <div class="header-content">
+            <h1 class="title">My Quiz App</h1>
+            <div class="timer">
+              Time-Left <span class="timer-value"></span>
+            </div>
+          </div>
+          <div class="quiz-progress"></div>
+        </div>
+
+        <div class="question-container">
+          <h2 class="question"> <span class="currentQ"></span> </h2>
+          <div class="quiz-options">
+            <!-- here all the option element will be added dynamically -->
+          </div>
+        </div>
+
+        <hr />
+        <div class="questions-remaining">
+          <span class="currentQ"></span> of
+          <span class="totalQ"></span> Questions
+        </div>
+      </div>
+
+      <div class="question-answer-container">
+        <div class="summary-header">
+          <h2>All Ques & Ans</h2>
+          <span class="score timer"></span>
+        </div>
+        <!-- here ques along with there correct answer will be shown -->
+      </div>
+      
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
