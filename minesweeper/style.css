@@ -174,7 +174,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 52%;
     height: 78.5%;
     color: white;
@@ -197,12 +197,10 @@ body {
     justify-content: space-evenly;
     color: white;
     border: 1px solid white;
-    width: 25%;
     padding: 3px 10px;
     border-radius: 3rem;
     font-weight: 700;
-    font-size: larger;
-    margin-top: 2rem;
+    width: 35%;
 }
 
 .restart {
@@ -284,13 +282,16 @@ body {
         padding: 20px;
     }
     .winner-screen::before, .loser-screen::before {
-        width: 74.5%;
-        height: 80.2%;
+        width: 75%;
+        height: 74.2%;
+        margin-bottom: 119px;
     }
 
     .playAgain {
         width: 50%;
         font-size: medium;
+        margin-bottom: 10rem;
+        padding: 0px 10px;
     }
 
     .navbar {
